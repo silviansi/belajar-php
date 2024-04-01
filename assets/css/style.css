@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.login {
+    background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.login-card {
+    background-color: rgba(0, 0, 0, 0.40);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+}
+
+.card-body h1 {
+    padding: 15px 0px 15px;
+    font-size: 2em;
+    color: #F4CE14;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+input[type="email"],
+input[type="password"] {
+    margin-top: 30px;
+    right: 4px;
+    top: 5px;
+    padding: 9px 8px;
+    color: #848484;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.20);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #F4CE14;
+}
+
+.login-btn {
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    border-radius: 44px;
+    padding: 12px;
+    background-color: #F4CE14;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 32px;
+    margin-top: 20px;
+}
+
+.login-btn:hover {
+    background-color: #F4CE14;
+    color: #ffff;
+}
+
+.new-account a {
+    color: #F4CE14;
+    font-weight: 400;
+}
+
+.f-pass a {
+    color: #626262;
+    text-decoration: none;
+}
+
+.product {
+    padding: 100px;
+    background-color: #F5F7F8;
+}
+
+.product-card {
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-img-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card-img-overlay .btn {
+    margin-top: 1rem;
+}
+
+.card-img-container:hover .card-img-overlay {
+    opacity: 1;
+}
